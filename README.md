@@ -57,9 +57,6 @@ dependencies {
 * AnticipateInterpolator
 * OvershootInterpolator
 
-<br/>
-
-
 ## in layout.xml：
 ```
   <com.iigo.library.JumboLoadingView
