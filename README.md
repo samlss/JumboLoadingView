@@ -1,15 +1,14 @@
 # JumboLoadingView
 A loading(progress) view that you can select different shapes.
 
+### [中文](https://github.com/samlss/JumboLoadingView/blob/master/README-ZH.md)
+
 [![Api reqeust](https://img.shields.io/badge/api-11+-green.svg)](https://github.com/samlss/JumboLoadingView)  [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://github.com/samlss/JumboLoadingView/blob/master/LICENSE) [![Blog](https://img.shields.io/badge/samlss-blog-orange.svg)](https://blog.csdn.net/Samlss)
 
 
 ![screenshot_circle](https://github.com/samlss/JumboLoadingView/blob/master/screenshots/screenshot_circle.gif)
-
 ![screenshot_square](https://github.com/samlss/JumboLoadingView/blob/master/screenshots/screenshot_square.gif)
-
 ![screenshot_triangel](https://github.com/samlss/JumboLoadingView/blob/master/screenshots/screenshot_triangel.gif)
-
 ![screenshot_star](https://github.com/samlss/JumboLoadingView/blob/master/screenshots/screenshot_star.gif)
 
 
@@ -34,17 +33,17 @@ dependencies {
 
 ## Attributes description：
 
-| 属性        | 说明           |
+| attr        | description           |
 | ------------- |:-------------:|
-| circleColor      | 设置外圈圆的颜色 |
-| showProgress | 显示显示进度 |
-| progress | 当前进度大小(0-100) |
-| progressTextColor | 设置进度字体颜色 |
-| progressTextSize | 设置进度字体大小 |
-| shapeColor | 旋转的形状的颜色 |
-| shapeType | 旋转的形状的类型，例如circle圆圈，square正方形，triangle三角形，star星星|
-| shapeStyle | 旋转的形状的填充形式，stoke描边，fill整个图形都填充颜色 |
-| interpolator | 动画插值器 |
+| circleColor      | set the color of the bigger circle |
+| showProgress | set if show progress, the default is not to show |
+| progress | set progress(0-100) |
+| progressTextColor | set the color of progress text |
+| progressTextSize | set the size of progress text |
+| shapeColor | set the color of shape |
+| shapeType | set the type of shape，includes: circle，square，triangle，star |
+| shapeStyle | style of the shape，includes: stoke，fill |
+| interpolator | the animation interpolator |
 
 ### interpolator: <br>
 * AccelerateDecelerateInterpolator
@@ -77,15 +76,15 @@ dependencies {
 
 ## in java code：
 ```
-   jumboLoadingView.start(); //开始动画
-   jumboLoadingView.stop(); //停止动画
-   jumboLoadingView.release(); //释放，一般在activity的destroy()调用
+   jumboLoadingView.start(); //start animation
+   jumboLoadingView.stop(); //stop animation
+   jumboLoadingView.release(); //release，generally call in the activity's destroy().
    
-   jumboLoadingView.setCircleColor(Color.RED); //设置外圈圆的颜色
-   jumboLoadingView.setShapeColor(Color.RED); //设置形状颜色
-   jumboLoadingView.setProgressTextColor(Color.RED); //设置进度字体颜色
-   jumboLoadingView.setProgressTextSize(12); //设置进度字体大小
-   jumboLoadingView.setProgress(99); // 设置进度大小
+   jumboLoadingView.setCircleColor(Color.RED); //set the color of the bigger circle
+   jumboLoadingView.setShapeColor(Color.RED); //set the color of shape
+   jumboLoadingView.setProgressTextColor(Color.RED); //set the color of progress text
+   jumboLoadingView.setProgressTextSize(12); //set the size of progress text
+   jumboLoadingView.setProgress(99); // set progress
 ```
 
 
