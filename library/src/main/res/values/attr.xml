@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="JumboLoadingView">
+        <attr name="circleColor" format="color|reference"></attr>
+        <attr name="showProgress" format="boolean|reference"></attr>
+        <attr name="progress" format="integer|reference"></attr>
+        <attr name="progressTextColor" format="color|reference"></attr>
+        <attr name="progressTextSize" format="reference|dimension"></attr>
+        <attr name="shapeColor" format="color|reference"></attr>
+        <attr name="shapeType">
+            <flag name = "circle" value = "0" />
+            <flag name = "square" value = "1" />
+            <flag name = "triangle" value = "2" />
+            <flag name = "star" value = "3" />
+        </attr>
+        <attr name="shapeStyle">
+            <flag name = "stoke" value = "0" />
+            <flag name = "fill" value = "1" />
+        </attr>
+        <attr name="interpolator" >
+            <flag name = "AccelerateDecelerateInterpolator" value = "0" />
+            <flag name = "AccelerateInterpolator" value = "1" />
+            <flag name = "DecelerateInterpolator" value = "2" />
+            <flag name = "BounceInterpolator" value = "3" />
+            <flag name = "CycleInterpolator" value = "4" />
+            <flag name = "LinearInterpolator" value = "5" />
+            <flag name = "AnticipateOvershootInterpolator" value = "6" />
+            <flag name = "AnticipateInterpolator" value = "7" />
+            <flag name = "OvershootInterpolator" value = "8" />
+        </attr>
+    </declare-styleable>
+</resources>
