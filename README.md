@@ -1,7 +1,8 @@
 # JumboLoadingView
 A loading(progress) view that you can select different shapes.
 
-### [中文](https://github.com/samlss/JumboLoadingView/blob/master/README-ZH.md)
+### [中文](https://github.com/samlss/JumboLoadingView/blob/master/README-ZH.md) 
+<br>
 
 [![Api reqeust](https://img.shields.io/badge/api-11+-green.svg)](https://github.com/samlss/JumboLoadingView)  [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://github.com/samlss/JumboLoadingView/blob/master/LICENSE) [![Blog](https://img.shields.io/badge/samlss-blog-orange.svg)](https://blog.csdn.net/Samlss)
 
